@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, jsonify, url_for
 # from sqlalchemy import create_engine
 # from sqlalchemy.orm import sessionmaker
 # from database_setup import Base, Restaurant, MenuItem
-from FlaskWebProject import app
+from app import app
 
 # engine = create_engine('sqlite:///restaurantmenu.db')
 # Base.metadata.bind = engine
